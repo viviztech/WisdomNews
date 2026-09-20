@@ -1,0 +1,45 @@
+.masthead {
+  min-height: 82px;
+  display: flex;
+  align-items: center;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 58px;
+  margin: 0 0 0 -76px;
+  padding: 0;
+  line-height: 0;
+}
+
+.brand img {
+  display: block;
+  width: auto;
+  height: 52px;
+  max-width: 185px;
+  margin: 0;
+  object-fit: contain;
+  object-position: left center;
+}
+
+@media (max-width: 767px) {
+  .masthead {
+    min-height: 68px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+
+  .brand {
+    min-height: 50px;
+    margin-left: -24px;
+  }
+
+  .brand img {
+    height: 44px;
+    max-width: 155px;
+  }
+}

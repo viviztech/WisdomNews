@@ -1,0 +1,13 @@
+.env
+/uploads/posts/*
+!/uploads/posts/.htaccess
+!/uploads/posts/.gitkeep
+/uploads/branding/*
+!/uploads/branding/.htaccess
+!/uploads/branding/.gitkeep
+/uploads/wordpress/*
+!/uploads/wordpress/.htaccess
+!/uploads/wordpress/.gitkeep
+/storage/logs/*
+!/storage/logs/.gitkeep
+/storage/mysql-data/
