@@ -49,10 +49,11 @@ $displayDate = format_date(date('Y-m-d H:i:s'), 'l, d F Y');
   <?php endif; ?>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,600;6..72,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@400;500;600;700&family=Noto+Serif+Tamil:wght@600;700&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="<?= e(versioned_asset('css/site.css')) ?>" rel="stylesheet">
   <link href="<?= e(versioned_asset('css/professional.css')) ?>" rel="stylesheet">
+  <link href="<?= e(versioned_asset('css/editorial-refresh.css')) ?>" rel="stylesheet">
 </head>
 <body data-image-fallback="<?= e(asset('images/news-placeholder.svg')) ?>">
 <a class="visually-hidden-focusable" href="#main-content">Skip to content</a>
